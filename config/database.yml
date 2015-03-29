@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  username: root
+  password:
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: pg_ar_memory_dev
+
+production:
+  <<: *default
+  database: pg_ar_memory_dev

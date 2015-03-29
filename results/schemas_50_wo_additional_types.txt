@@ -1,0 +1,830 @@
+Total allocated 591
+Total retained 256
+
+allocated memory by gem
+-----------------------------------
+     56523  ruby-2.1.4/lib
+     27129  activerecord-4.2.1
+      3770  pg-0.18.1
+      1663  activesupport-4.2.1
+       912  other
+       584  thread_safe-0.3.5
+       472  arel-6.0.0
+
+allocated memory by file
+-----------------------------------
+     43019  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb
+      8992  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb
+      6440  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb
+      5040  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb
+      3928  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb
+      3770  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb
+      3328  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb
+      2872  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb
+      1896  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/tree_builder.rb
+      1448  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb
+      1200  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb
+      1064  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb
+       880  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/nodes/node.rb
+       864  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/class_loader.rb
+       704  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_handling.rb
+       592  run.rb
+       584  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb
+       497  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb
+       488  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb
+       480  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb
+       480  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb
+       472  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb
+       472  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb
+       472  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb
+       320  (eval)
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/explain_subscriber.rb
+       160  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/schema_cache.rb
+       111  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb
+        80  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/handlers/document_stream.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/transaction.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/core.rb
+
+allocated memory by location
+-----------------------------------
+     33810  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+      8649  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:464
+      5776  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+      4160  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+      3328  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb:7
+      2360  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:43
+      2096  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:7
+      1672  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/tree_builder.rb:75
+      1624  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:469
+      1584  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:427
+       928  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:161
+       880  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/nodes/node.rb:21
+       864  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/class_loader.rb:21
+       840  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+       800  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:26
+       640  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:300
+       640  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:116
+       600  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb:9
+       600  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb:8
+       600  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb:72
+       600  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+       504  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:8
+       488  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:176
+       488  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb:86
+       480  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:304
+       480  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+       472  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb:15
+       464  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb:10
+       432  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:252
+       426  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:55
+       417  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb:275
+       400  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+       400  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+       352  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb:241
+       320  (eval):3
+       304  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:369
+       288  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:489
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:468
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/explain_subscriber.rb:11
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:8
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:466
+       272  run.rb:75
+       272  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:246
+       256  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:318
+       248  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:133
+       248  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:455
+       240  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb:155
+       232  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_handling.rb:74
+       232  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:24
+       232  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb:149
+
+allocated objects by gem
+-----------------------------------
+       347  activerecord-4.2.1
+       169  ruby-2.1.4/lib
+        31  pg-0.18.1
+        22  activesupport-4.2.1
+        14  other
+         5  thread_safe-0.3.5
+         3  arel-6.0.0
+
+allocated objects by file
+-----------------------------------
+       101  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb
+        82  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb
+        52  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb
+        47  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb
+        36  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb
+        34  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb
+        31  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb
+        30  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb
+        26  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb
+        23  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/tree_builder.rb
+        20  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb
+        17  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb
+        12  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb
+        10  run.rb
+         8  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_handling.rb
+         8  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/explain_subscriber.rb
+         6  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/nodes/node.rb
+         5  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb
+         5  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb
+         4  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb
+         4  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/schema_cache.rb
+         4  (eval)
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/transaction.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/core.rb
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/class_loader.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/handlers/document_stream.rb
+
+allocated objects by location
+-----------------------------------
+        57  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+        26  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+        26  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb:7
+        26  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+        21  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+        19  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/tree_builder.rb:75
+        16  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:300
+        15  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb:8
+        15  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb:72
+        15  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+        15  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/value.rb:9
+        12  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:427
+        12  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:304
+        10  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+        10  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+        10  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:55
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:466
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/explain_subscriber.rb:11
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:469
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:468
+         6  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb:275
+         6  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:252
+         6  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/nodes/node.rb:21
+         6  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb:155
+         5  run.rb:8
+         4  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:464
+         4  (eval):3
+         4  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:116
+         4  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:161
+         4  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb:86
+         4  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:105
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+         3  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:47
+         3  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:48
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:8
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:489
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:176
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb:15
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb:109
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:8
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:468
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:478
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:476
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:472
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:466
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:474
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:453
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+
+retained memory by gem
+-----------------------------------
+     19504  activerecord-4.2.1
+      9472  ruby-2.1.4/lib
+       951  activesupport-4.2.1
+       584  thread_safe-0.3.5
+       472  arel-6.0.0
+       160  other
+        40  pg-0.18.1
+
+retained memory by file
+-----------------------------------
+      8992  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb
+      8800  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb
+      4088  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb
+      3328  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb
+      1664  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb
+       584  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb
+       480  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb
+       472  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb
+       472  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb
+       464  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb
+       400  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb
+       376  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb
+       312  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb
+       160  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/schema_cache.rb
+       160  run.rb
+       120  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb
+       111  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb
+        80  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/transaction.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb
+        40  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb
+
+retained memory by location
+-----------------------------------
+      8448  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:464
+      5776  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+      3328  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb:7
+      2096  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:7
+      1584  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:427
+       840  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+       504  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:8
+       488  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:176
+       480  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+       472  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb:15
+       464  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb:10
+       376  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb:86
+       352  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb:241
+       280  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:8
+       248  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:489
+       232  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb:149
+       232  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:369
+       208  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:44
+       128  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:535
+       120  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+       120  run.rb:8
+       112  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:494
+       111  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb:274
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:485
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:466
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:483
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:465
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:463
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:471
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:462
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:470
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:469
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:468
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:484
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:478
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:455
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:467
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:458
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:456
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:473
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:109
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:453
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:452
+        80  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:451
+
+retained objects by gem
+-----------------------------------
+       222  activerecord-4.2.1
+        15  ruby-2.1.4/lib
+         6  activesupport-4.2.1
+         5  thread_safe-0.3.5
+         4  other
+         3  arel-6.0.0
+         1  pg-0.18.1
+
+retained objects by file
+-----------------------------------
+        82  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb
+        82  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb
+        26  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb
+        13  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb
+         5  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb
+         5  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb
+         5  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb
+         4  run.rb
+         4  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/schema_cache.rb
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb
+         3  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/transaction.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/database_statements.rb
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb
+
+retained objects by location
+-----------------------------------
+        57  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+        26  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/hash_lookup_type_map.rb:7
+        21  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+        12  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:427
+         3  run.rb:8
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:8
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/class/attribute.rb:86
+         3  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:8
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/arel-6.0.0/lib/arel/visitors/visitor.rb:15
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:176
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/core_ext/hash/keys.rb:10
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:470
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:469
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:485
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:468
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:483
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:467
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:466
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/monitor.rb:241
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:474
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:478
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:465
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:463
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:473
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:16
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:471
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:489
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:462
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:484
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:475
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:476
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:458
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:456
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:455
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:477
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:453
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:452
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:451
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:450
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:472
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:449
+
+
+Allocated String Report
+-----------------------------------
+        17  "<<"
+        12  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:304
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:48
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:47
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+
+        12  "varchar"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:456
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:455
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:454
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:485
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:484
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:483
+
+         8  "ActiveRecord::Base"
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:16
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:535
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:584
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:534
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:608
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:623
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:602
+
+         8  "default"
+         4  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:289
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+
+         7  "sql.active_record"
+         7  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/abstract_adapter.rb:468
+
+         7  "SCHEMA"
+         3  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb:275
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:314
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb:270
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:683
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:252
+
+         6  "'"
+         6  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+
+         6  "production"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  run.rb:22
+         1  run.rb:75
+
+         6  "database"
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+
+         5  "pg_ar_memory_dev"
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+
+         5  "development"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  run.rb:10
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+
+         5  "pool"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:48
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:47
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+
+         5  "root"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:47
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:48
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+
+         4  "timeout"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+
+         4  "%s=%s"
+         4  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:55
+
+         4  "password"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+
+         4  "username"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+
+         4  ""
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         2  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:105
+
+         4  "adapter"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/visitors/to_ruby.rb:326
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+
+         4  "run.rb"
+         2  run.rb:8
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:44
+
+         3  "float4"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:452
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:451
+
+         3  "postgresql"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:40
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+
+         3  "int2"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:450
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:447
+
+         3  "timestamp"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:489
+
+         3  "5000"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:116
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:105
+
+         3  "5"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:116
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:105
+
+         2  "time"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:463
+
+         2  "box"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+
+         2  "numeric"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:494
+
+         2  "url"
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb:257
+
+         2  "TimeZone"
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:252
+
+         2  "xml"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:474
+
+         2  "tsvector"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:475
+
+         2  "macaddr"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:476
+
+         2  "citext"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:477
+
+         2  "ltree"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:478
+
+         2  "active_record/connection_adapters/postgresql_adapter"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb:274
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb:173
+
+         2  "interval"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+
+         2  "path"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+
+         2  "hstore"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:468
+
+         2  "json"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:469
+
+         2  "jsonb"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:470
+
+         2  "cidr"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:471
+
+         2  "inet"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:472
+
+         2  "money"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:465
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "warning"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/database_statements.rb:109
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:673
+
+         2  "lseg"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+
+         2  "../config/database.yml"
+         2  run.rb:8
+
+         2  "bytea"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:466
+
+         2  "SET client_min_messages TO 'warning'"
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql/schema_statements.rb:275
+
+
+Retained String Report
+-----------------------------------
+        12  "varchar"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:456
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:455
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:454
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:485
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:484
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:483
+
+         3  "float4"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:452
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:451
+
+         3  "int2"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:450
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:447
+
+         2  "bool"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:458
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "circle"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:485
+
+         2  "lseg"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:486
+
+         2  "box"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:487
+
+         2  "xml"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:474
+
+         2  "tsvector"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:475
+
+         2  "macaddr"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:476
+
+         2  "citext"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:477
+
+         2  "ActiveRecord::Base"
+         2  /Users/dev/.rvm/gems/ruby-2.1.4/gems/thread_safe-0.3.5/lib/thread_safe/non_concurrent_cache_backend.rb:16
+
+         2  "ltree"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:478
+
+         2  "text"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:453
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "float8"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:452
+
+         2  "root"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:47
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+
+         2  "oid"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:450
+
+         2  "polygon"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:484
+
+         2  "int8"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:449
+
+         2  "int4"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:448
+
+         2  "postgresql"
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych/scalar_scanner.rb:42
+         1  /Users/dev/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/psych.rb:370
+
+         2  "bpchar"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:457
+
+         2  "line"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:483
+
+         2  "name"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:456
+
+         2  "char"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:455
+
+         2  "bit"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:459
+
+         2  "date"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:462
+
+         2  "interval"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:481
+
+         2  "timestamp"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+
+         2  "varbit"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:460
+
+         2  "money"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:465
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "time"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:463
+
+         2  "point"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:467
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "bytea"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:466
+
+         2  "uuid"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:473
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+
+         2  "inet"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:472
+
+         2  "cidr"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:471
+
+         2  "jsonb"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:470
+
+         2  "json"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:469
+
+         2  "hstore"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:30
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:468
+
+         2  "path"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:482
+
+         2  "timestamptz"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:461
+
+         1  "%s=%s"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/pg-0.18.1/lib/pg/connection.rb:55
+
+         1  "active_record/connection_adapters/postgresql_adapter"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activesupport-4.2.1/lib/active_support/dependencies.rb:274
+
+         1  "postgresql_connection"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/connection_specification.rb:182
+
+         1  nil
+         1  run.rb:8
+
+         1  "../config/database.yml"
+         1  run.rb:8
+
+         1  "UTC"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/connection_adapters/postgresql_adapter.rb:252
+
+         1  "numeric"
+         1  /Users/dev/.rvm/gems/ruby-2.1.4/gems/activerecord-4.2.1/lib/active_record/type/type_map.rb:28
+
+         1  "run.rb"
+         1  run.rb:8
